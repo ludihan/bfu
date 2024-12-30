@@ -1,12 +1,12 @@
-# bfu is an interpreter and eventual compiler for brainfvck.
+# bfu is an interpreter and eventual compiler for brainfvck
 
 The goal of this project make a general tool for everything related to this
-    language, covering the many edge cases not specified by the creator. It's also my testbed for weird compiler experiments and ELF manipulation.
+    language, covering the many edge cases not specified by the creator. It's also my testbed for weird compiler experiments and ELF manipulation
 
 ## Compiling.
 > [!NOTE]
 > Non-UNIX systems are not supported for the moment and I rely 
-    only tested this in GNU/Linux.
+    only tested this in GNU/Linux
 
 Assuming you have make and a C compiler installed, clone the repo, cd into it
     and you'll be able run some commmands like so:
