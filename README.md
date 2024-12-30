@@ -4,8 +4,8 @@ The goal of this project make a general tool for everything related to this
     language, covering the many edge cases not specified by the creator. It's also my testbed for weird compiler experiments and ELF manipulation.
 
 ## Compiling.
-[!NOTE]
-Non-UNIX systems are not supported for the moment and I rely 
+> [!NOTE]
+> Non-UNIX systems are not supported for the moment and I rely 
     only tested this in GNU/Linux.
 
 Assuming you have make and a C compiler installed, clone the repo, cd into it
@@ -23,8 +23,8 @@ Replace <phony_target> with:
 
 release creates an binary in bin/, debug creates in debug/
 
-[!NOTE]
-By the default the makefile will attempt to use the 'cc' compiler,
+> [!NOTE]
+> By the default the makefile will attempt to use the 'cc' compiler,
    aka the default compiler installed in your system if you wish to use a
    different one just change that variable
 
