@@ -47,5 +47,4 @@ cat hello.b | ./bfu
 - Loop handling is extremely lazy
 - Purely interpreted, no compiling capabilities
 - No flags or flag handling
-- No compiling capabilites
 - Naming convention could use some help
