@@ -1,5 +1,5 @@
 # tool macros
-CC ?= # FILL: the compiler
+CC = cc
 CFLAGS := -Wall -Wextra -Wpedantic
 DBGFLAGS := -g -DDEBUG -fsanitize=address -fsanitize=undefined
 COBJFLAGS := $(CFLAGS) -c
