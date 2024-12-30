@@ -3,7 +3,7 @@
 The goal of this project make a general tool for everything related to this
     language, covering the many edge cases not specified by the creator. It's also my testbed for weird compiler experiments and ELF manipulation
 
-## Compiling.
+## Compiling
 > [!NOTE]
 > Non-UNIX systems are not supported for the moment and I rely 
     only tested this in GNU/Linux
