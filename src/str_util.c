@@ -1,8 +1,4 @@
-#ifndef STRUTIL_H
-#define STRUTIL_H
-
-#include <stdio.h>
-#include <stdlib.h>
+#include "str_util.h"
 
 char *fgetall(FILE *fp) {
     size_t out_size = 1;
@@ -15,5 +11,3 @@ char *fgetall(FILE *fp) {
     out[out_size - 1] = '\0';
     return out;
 }
-
-#endif /* STRUTIL_H */

@@ -1,7 +1,10 @@
 #ifndef STRUTIL_H
 #define STRUTIL_H
 
-// Reads eveything from a given FILE(from stdio) and returns the string sequence
+#include <stdio.h>
+#include <stdlib.h>
+
+// Reads everything from a given FILE and returns the string sequence
 // Needs to be free'd manually
 extern char *fgetall(FILE *fp);
 

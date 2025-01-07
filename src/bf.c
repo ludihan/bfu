@@ -1,8 +1,3 @@
-#include <stddef.h>
-#include <stdbool.h>
-#include <stdlib.h>
-#include <stdio.h>
-
 #include "bf.h"
 
 struct BFEngine bf_new(const size_t tape_len, const size_t cell_size,

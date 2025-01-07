@@ -5,6 +5,7 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 typedef struct BFEngine {
     char *tape;
@@ -28,8 +29,8 @@ extern bool is_valid_bf (const char *input);
 extern size_t bf_exec (struct BFEngine *bf, const char *input, 
         const size_t start_reading_at);
 
-// Compiles a program to ELF(linux), still doesn't exist
-// I don't think i'll be able to actually make this function work but who nows
+// Compiles a program to ELF(linux) (not yet programmed)
+// I don't think i'll be able to actually make this function work but who knows
 // extern void bf_compile (struct BFEngine *bf, const char *input,
 //       const char *output_file_name);
 
