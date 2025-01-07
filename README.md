@@ -26,7 +26,7 @@ release creates an binary in bin/, debug creates in debug/
 
 > [!NOTE]
 > By default the makefile will attempt to use the 'cc' compiler, aka the 
-    default compiler installed in your system if you wish to use a
+    default compiler installed in your system, if you wish to use a
     different one just change that variable
 
 ## Usage
@@ -45,7 +45,7 @@ cat hello.b | ./bfu
 
 ## Known problems
 - The binary crashes on some inputs
-- Loop handling is extremely lazy
+- Loop handling is extremely lazy and inefficient
 - Purely interpreted, no compiling capabilities
 - No flags or flag handling
 - Naming convention could use some help
